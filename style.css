@@ -1,0 +1,563 @@
+body {
+  background: #E5E5E5;
+}
+body>div {
+  margin: 0 auto;
+  width: 1400px;
+  height: 5400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:  #EFE6E4;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+.main {
+  position: absolute;
+  width:1400px;
+  height: 715px;
+  background-image: url('./images/anastasiya-vysotskaya-v5GfetB7Yv0-unsplash\ 1.png');
+}
+.navlist {
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+  position: absolute;
+  width: 1201.28px;
+  height: 25px;
+  left: 50px;
+  top: 36px;
+}
+.navlist li, .navlist a  {
+  text-decoration: none;
+  color: #533738;
+  align-self: flex-end;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+h1 {
+  position: absolute;
+  margin:0;
+width: 534.02px;
+height: 186px;
+left: 184.08px;
+top: 152px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 62px;
+color: #533738;
+}
+main pre {
+  margin: 0;
+  padding:0;
+  position: absolute;
+width: 493.57px;
+height: 90px;
+left: 184.08px;
+top: 362px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+color: #533738;
+}
+#Btn1 {
+  margin:0 !important;
+position: absolute;
+left: 182px;
+top: 473px;
+}
+
+
+
+
+
+
+
+
+/*О нас*/
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width:1400px;
+  height: 849px;
+  top: 780px;
+}
+.aboutUs h2 {
+  
+  margin: 0;
+  margin-bottom: 40px;
+  width: 136px;
+  height: 50px;
+  align-self: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #533738;
+}
+.aboutUs div {
+  display: flex;
+  margin-left: 178px;
+}
+.aboutImg {
+  width: 444.54px;
+height: 465px;
+}
+.aboutUs div pre {
+  margin: 0;
+  color: #533738;
+  margin-left: 47px;
+  width: 528px;
+  height: 330px;
+  font-size: 18px;
+line-height: 30px;
+font-family: Montserrat;
+}
+.nums {
+  display: flex;
+  margin: 0;
+  margin-top: 21px;
+width: 1400px;
+height: 273px;
+left: 0px;
+top: 1356px;
+color: white;
+background: #8D7370;
+justify-content: space-around;
+}
+.num {
+  font-size: 50px;
+  line-height: 62px;
+  margin: 0;
+}
+.numsText {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.nums div {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+}
+
+
+
+
+
+
+/*Наши работы*/
+.works {
+ position: absolute;
+ width: 1183px;
+ height: 1099px;
+ top: 1694px;
+ 
+}
+.works h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #533738;
+  margin-bottom: 40px;
+}
+.studio {
+  margin: 0 auto;
+}
+.studio div:nth-child(1) {/*первый ряд*/
+  display: flex;
+  height: 451px;
+  margin-bottom: 30px;
+}
+
+.studio div:nth-child(2) {/*второй ряд*/
+  display: flex;
+  }
+.studio div:nth-child(2) img:nth-of-type(2){
+  
+}
+.studio .room1, .studio .room2, .studio .room3, .studio .room4{
+  position: relative;
+  height: 451px;
+}
+
+.room1 .text1, .room2 .text1, .room3 .text1, .room4 .text1 {
+  position: absolute;
+  color: transparent;
+}
+
+.room1 .text1:hover,
+.room4 .text1:hover {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(100, 72, 69, 0.8);
+  width: 488px;
+  height: 451px;
+}
+.room2 .text1:hover,
+.room3 .text1:hover {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(100, 72, 69, 0.8);
+  width: 692px;
+  height: 451px;
+}
+
+
+.room1:hover pre:nth-child(1),
+.room2:hover pre:nth-child(1),
+.room3:hover pre:nth-child(1),
+.room4:hover pre:nth-child(1) {
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.room1:hover pre:nth-child(2),
+.room2:hover pre:nth-child(2),
+.room3:hover pre:nth-child(2),
+.room4:hover pre:nth-child(2) {
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: auto;
+  width: 50%;
+}
+.arrow span:nth-of-type(1) {
+  font-size: 30px;
+line-height: 37px;
+color: #533738;
+}
+.arrow span:nth-of-type(2){
+  background-image: url(./files/Arrow\ 3.png);
+  width: 60px;
+  height: 15px;
+  box-sizing: border-box;
+  align-self: center;
+  margin-left: 4px;
+}
+
+
+
+
+
+/*КОМАНДА*/
+.team {
+  position: absolute;
+  width: 1399px;
+  height: 998px;
+  top: 2858px;
+  background: #E2C4BA;
+}
+.team h2:nth-of-type(1) {
+  margin: 40px auto;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #533738;
+  text-align: center;
+}
+.team h2:nth-of-type(2) {
+  margin: 40px auto;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #533738;
+  text-align: center;
+  margin-top: 0;
+}
+
+.teamMembers {
+  display: flex;
+  justify-content: center;
+}
+.teamMembers article:nth-of-type(2) {
+  margin: 0 30px;
+}
+.teamMembers pre:nth-of-type(1),
+ .teamMembers pre:nth-of-type(2),
+  .teamMembers pre:nth-of-type(3) {
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+  margin-bottom: 0;
+}
+.howWeWork {
+  width: 1169px;
+height: 300px;
+margin: 0 auto;
+}
+
+.howWeWork .wrap {
+  display: flex;
+  justify-content: space-around;
+}
+.wrap pre:nth-of-type(1),
+.wrap pre:nth-of-type(2),
+.wrap pre:nth-of-type(3),
+.wrap pre:nth-of-type(4) {
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #533738;
+}
+.howWeWork .wrap div {
+  text-align: center;
+}
+.divTopNum {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+.topNum {
+  position: absolute;
+  font-family: Montserrat;
+  width: 21px;
+  height: 30px;
+font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+
+
+
+
+
+/*Отзывы*/
+.revju {
+  position: absolute;
+  width: 1036px;
+  height: 658px;
+  top: 3921px;
+  text-align: center;
+}
+.revju h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #533738;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.revWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.revs pre {
+  margin: 0;
+  width: 407px;
+  height: 335px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+  text-align: left;
+}
+.revs p {
+  width: 180px;
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+.imgWrapRevju {
+  display: flex;
+  flex-direction: column;
+  
+}
+.imgWrapRevju img {
+  width: 407px;
+  height: 272px;
+}
+.imgWrapRevju img:nth-of-type(1) {
+  margin-bottom: 24px;
+}
+.left, .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left img, .right img {
+  position: absolute;
+  width: 32px;
+  height: 20px;
+}
+.left span, .right span {
+background-image: url(./files/Ellipse\ 4.2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+}
+
+
+
+
+/*Оставить заявку*/
+.blank {
+  position: absolute;
+  width: 1400px;
+  height: 624px;
+  top: 4644px;
+  background: #8D7370;
+  display: flex;
+}
+.blank form {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-top: 50px;
+  margin-left: 177px;
+  color: white;
+}
+.blank form h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+.blank form p {
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.blank form input {
+  width: 508px;
+  height: 35px;
+  background-color: #8D7370;
+  color: #F6EDE9;
+  font-size: 18px;
+  line-height: 30px;
+  border: 1px solid #8D7370;
+  border-bottom: 2px solid white;
+  margin-top: 20px;
+  outline: none;
+}
+/*зададим цвет плейсхолдера(для тех браузеров, что поймут), а то серый не виден*/
+.blank form input::-webkit-input-placeholder {
+  color: #ccc;
+} 
+.blank form input::-moz-placeholder {
+  color: #ccc;
+}
+#Btn1, #Btn2 {
+  position: absolute;
+width: 309px;
+height: 74px;
+font-family: Montserrat;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #533738;
+background: #CC8B86;
+margin: 0;
+margin-top: 31px;
+outline: none !important;
+border: 0 !important;
+}
+.map {
+  margin: 0 20px;
+}
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 1200px;
+  height: 30px;
+  top: 5305px;
+}
+footer p {
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+footer p:nth-of-type(1) {
+  margin-right: 36px;
+}
+footer p:nth-of-type(3) {
+  margin-left: auto;
+}
+
+
+.navlist li a:hover {
+  color: #CC8B86;
+} 
+
+#Btn1:hover, #Btn2:hover {
+  background-color: #533738;
+  color: white;
+}
+
+.arrow:hover span:nth-of-type(1), 
+.arrow:hover span:nth-of-type(2){
+  opacity: 0.7;
+}
+
+
+.left span:nth-of-type(1):hover, 
+.right span:nth-of-type(1):hover {
+  
+  background-image: url(./files/Ellipse\ 14.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+}
+
